@@ -1,0 +1,193 @@
+.mailbox
+{
+    
+    
+    height: 28px;
+    margin-top: 50px;
+    margin-left: 85px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 5px;
+    border-color: white;
+    border-style: none;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    background-color: white;
+    border-bottom: 2px solid;
+    color: #000000;
+    
+}
+
+.password
+{
+    
+    
+    padding: 5px 5px 5px 5px;
+    height: 28px;
+    margin-top: 5px;
+    margin-left: 85px;
+    border-color: white;
+    background-color: white;
+    border-style: none;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid;
+    color: black;
+
+}
+ .box
+ {
+    
+    gap: 5px;
+    margin-top: 10px;
+    margin-left: 56px;
+    padding: 10px 30px 10px 30px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    vertical-align: middle;
+    background-color:  white;
+    cursor: pointer;
+    border-color: white;
+    display: inline-block;
+    border-radius: 25px;
+    border-color: gray;
+    font-size: 15px;
+ }
+
+ .box2
+ {
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    background-color:  white;
+    cursor: pointer;
+    border-radius: 25px;
+    border-color: white;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: gray; 
+   
+ }
+
+ .box1
+ {
+
+
+    gap: 5px;
+    padding: 10px 85px 10px 60px;
+    margin-top: 10px;
+    margin-left: 40px;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.mainhead
+{
+    margin-left: 25%; 
+    font-size: 70px;
+    margin-right: 25%;
+    color: rgb(0, 0, 0);
+}
+ body
+ {
+    background-image: url(geometric-gradient-futuristic-background_23-2149116406.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+.maindiv
+{
+    background-color: #f0eef8;
+    opacity: 0.8;
+    border: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    margin: auto;
+    margin-left: 40%;
+    margin-top: 200px;
+    height: 380px;
+    width: 350px;
+}
+
+.forgot
+{
+    color: rgb(13, 145, 227);
+}
+
+.click1
+{
+    color: rgb(10, 10, 10);
+    margin-left: 85px;
+    display: inline-block;
+}
+
+.box:hover
+{
+    color: white;
+    background-color: #000000b3;
+    opacity: 0.8;
+    transition: 0.5s;
+    border-color: white;
+}
+
+.box2:hover
+{
+    color: white;
+    background-color: #000000b3;
+    opacity: 0.8;
+    transition: 0.5s;
+    border-color: white;
+}
+
+.box1:hover
+{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+    transition: 0.5s;
+    border-color: white;
+}
+
+.box:active
+{
+    background-color: #000000b3;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.box2:active:active
+{
+    background-color: #000000b3;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.box1:active:active
+{
+    background-color: black;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.placeholder
+{
+    color: black;
+}
